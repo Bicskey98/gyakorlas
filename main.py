@@ -84,4 +84,41 @@ for kez in taska:
 for szam in range(0,104,4):
   print(szam)
 
+"""
+import random
+pont= 0
+veletlen=random.randint(0,10)
+amig= True
+while amig:
+  bekeres=int(input("Gondoltam egy számra , találd ki!(0:10):\t"))
+  if bekeres == veletlen:
+    print(f"Gratulálok eltaláltad a számot , amire gondoltam: {veletlen}")
+    amig=False
+
+  pont +=1
+
+print(f"A felhasználó ennyiszer próbálkozott: {pont}")
+"""
+
+import math
+PI=math.pi
+sugar=int(input("Add meg a kör sugarát: "))
+terulet= sugar**2 * PI
+print(f"A területe a körnek:\t{terulet:.2f} négyzetcentiméter")
+
+kerulet = sugar * 2 * PI
+
+print(f"A kerülete a körnek:\t{kerulet:.2f} centiméter ")
+
+
+
+
+#gyokvonas = 64**0.5
+#print(gyokvonas)
+
+
+
+
+  
+    
 
